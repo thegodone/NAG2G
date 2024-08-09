@@ -35,6 +35,7 @@ pip install rdchiral transformers tokenizers omegaconf rdkit
 
 You can obtain the dataset USPTO-50k and pretrained model weights for USPTO-50k from [the Google Drive](https://drive.google.com/drive/folders/1lZOLRGyZy18EVow7gyxtKWvs_yuwlIE3?usp=sharing):
 
+unzip them in models folder
 
 ## Model Validation
 
@@ -42,7 +43,8 @@ To validate the NAG2G model with the provided weights, follow the instructions b
 
 ```bash
 # Execute the validation script with the specified checkpoint file
-sh valid.sh path2weight/NAG2G_unimolplus_uspto_50k_20230513-222355/checkpoint_last.pt
+sh valid.sh /home/ubuntu/NAG2G/models/NAG2G_unimolplus_uspto_50k_20230513-222355/checkpoint_last
+
 ```
 
 For any questions or issues, please open an issue on our GitHub repository.
