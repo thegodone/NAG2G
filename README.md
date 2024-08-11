@@ -28,7 +28,7 @@ pip install .
 cd -
 
 # Install additional dependencies
-pip install rdchiral transformers tokenizers omegaconf rdkit
+pip install rdchiral transformers tokenizers omegaconf rdkit scikit-learn timeout-decorator
 ```
 
 ## Datasets and Pretrained Weights
